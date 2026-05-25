@@ -2,7 +2,7 @@
 
 ## Core Identity Principles
 
-### Person-first, Account-second, Family-third
+### Person-first, Account-second, Space-third
 Vansha models humans independently from platform accounts.
 
 A person may exist without ever signing up.
@@ -46,26 +46,29 @@ Principles:
 - One account maps to one person
 - One person may initially exist without an account
 
-### FamilyGroup
-Logical family grouping.
+### FamilySpace
+Collaborative logical family context.
 
 Examples:
 - Natakam Clan
 - Natakam Chennai Branch
 - Hemanth Nuclear Family
-- Wedding Event Group
+- Reddy Hyderabad Branch
+- Wedding Event Space
 
 Fields:
-- family_group_id
+- space_id
 - name
 - slug
-- group_type
+- space_type
+- visibility
 
-Group Types:
-- surname_based
+Space Types:
+- clan
 - branch
-- custom_family
-- event_group
+- nuclear
+- custom
+- event
 
 ## Relationship Graph
 Explicit relationship edges.
@@ -103,17 +106,20 @@ Duplicates require merge governance.
 ## Ownership & Governance
 Roles:
 - Self Owner
-- Family Admin
+- Space Admin
 - Contributor
 - Viewer
 
 ## Privacy Visibility
 Scopes:
 - private
-- family
+- family_space
 - branch
 - invite_only
 - public_limited
 
 ## Architectural Rule
-UserAccount != Person != FamilyGroup
+UserAccount != Person != FamilySpace
+
+## Platform Principle
+A single person can belong to multiple collaborative family spaces.

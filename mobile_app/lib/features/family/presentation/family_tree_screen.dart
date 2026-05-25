@@ -1,76 +1,84 @@
 import 'package:flutter/material.dart';
+import 'package:graphview/GraphView.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import '../../../../core/theme/app_colors.dart';
 
 class FamilyTreeScreen extends StatelessWidget {
   const FamilyTreeScreen({super.key});
 
-  Widget node(String name, {bool center = false}) {
+  Widget personNode(String name, {bool center = false}) {
     return Container(
-      padding: const EdgeInsets.all(12),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       decoration: BoxDecoration(
-        color: center ? AppColors.primary : Colors.white,
-        borderRadius: BorderRadius.circular(18),
-        boxShadow: const [BoxShadow(blurRadius: 8, color: Colors.black12)],
+        gradient: center
+            ? const LinearGradient(colors: [Colors.deepPurple, Colors.blue])
+            : null,
+        color: center ? null : Colors.white,
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: const [BoxShadow(blurRadius: 10, color: Colors.black12)],
       ),
       child: Text(
         name,
         textAlign: TextAlign.center,
         style: TextStyle(
           color: center ? Colors.white : Colors.black87,
-          fontWeight: FontWeight.w600,
+          fontWeight: FontWeight.bold,
         ),
       ),
-    );
+    ).animate().fadeIn().scale();
   }
 
   @override
   Widget build(BuildContext context) {
+    final graph = Graph()..isTree = true;
+
+    final father = Node.Id('father');
+    final mother = Node.Id('mother');
+    final center = Node.Id('center');
+    final spouse = Node.Id('spouse');
+    final child = Node.Id('child');
+    final sibling = Node.Id('sibling');
+
+    graph.addEdge(father, center);
+    graph.addEdge(mother, center);
+    graph.addEdge(center, spouse);
+    graph.addEdge(center, child);
+    graph.addEdge(center, sibling);
+
+    final builder = BuchheimWalkerConfiguration()
+      ..siblingSeparation = 40
+      ..levelSeparation = 60
+      ..subtreeSeparation = 50;
+
     return Scaffold(
       backgroundColor: AppColors.background,
-      appBar: AppBar(title: const Text('Vansha Relationship Graph')),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                node('Natakam Malakonda Prasad'),
-                const SizedBox(width: 12),
-                node('Natakam Sudharani'),
-              ],
-            ),
-            const SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                node('Divya Bharati'),
-                const SizedBox(width: 12),
-                node('Natakam Hemanth Kumar', center: true),
-                const SizedBox(width: 12),
-                node('Keerthi Doguparti'),
-              ],
-            ),
-            const SizedBox(height: 20),
-            node('Natakam Yuvan Simha'),
-            const SizedBox(height: 32),
-            const Text('Expandable Family Branches'),
-            const SizedBox(height: 16),
-            Wrap(
-              spacing: 12,
-              runSpacing: 12,
-              alignment: WrapAlignment.center,
-              children: [
-                node('Prasad Doguparti'),
-                node('Jayamma Doguparti'),
-                node('Kiran Doguparti'),
-                node('Mamidi Suresh Kumar'),
-                node('Ramesh Babu'),
-                node('Radha Rani'),
-                node('Mamidi Ganesh Kumar'),
-              ],
-            )
-          ],
+      appBar: AppBar(title: const Text('Vansha Founder Graph')),
+      body: InteractiveViewer(
+        constrained: false,
+        boundaryMargin: const EdgeInsets.all(200),
+        minScale: 0.5,
+        maxScale: 2.5,
+        child: GraphView(
+          graph: graph,
+          algorithm: BuchheimWalkerAlgorithm(builder, TreeEdgeRenderer(builder)),
+          builder: (Node node) {
+            switch (node.key?.value) {
+              case 'father':
+                return personNode('Natakam Malakonda Prasad');
+              case 'mother':
+                return personNode('Natakam Sudharani');
+              case 'center':
+                return personNode('Natakam Hemanth Kumar', center: true);
+              case 'spouse':
+                return personNode('Keerthi Doguparti');
+              case 'child':
+                return personNode('Natakam Yuvan Simha');
+              case 'sibling':
+                return personNode('Divya Bharati');
+              default:
+                return personNode('Unknown');
+            }
+          },
         ),
       ),
     );

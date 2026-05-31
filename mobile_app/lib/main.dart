@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'features/family/presentation/family_tree_screen.dart';
+import 'features/onboarding/presentation/welcome_screen.dart';
+import 'features/family/presentation/vri_demo_screen.dart';
 
 void main() {
   runApp(const VanshaApp());
@@ -13,7 +14,7 @@ class VanshaApp extends StatelessWidget {
     return MaterialApp(
       title: 'Vansha',
       debugShowCheckedModeBanner: false,
-      home: const FamilyTreeScreen(),
+      home: const VRIDemoScreen(),
     );
   }
 }

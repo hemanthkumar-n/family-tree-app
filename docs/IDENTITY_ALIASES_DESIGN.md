@@ -46,7 +46,7 @@ Searching by alias should return the linked person profile.
 
 Example:
 Search: Prasad Mama
-Result: Natakam Malakonda Prasad
+Result: Rajesh Rao
 
 ## Future AI
 AI should be able to resolve:

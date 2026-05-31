@@ -90,15 +90,15 @@ class FamilyTreeScreen extends StatelessWidget {
           builder: (Node node) {
             switch (node.key?.value) {
               case 'father':
-                return personNode('Natakam Malakonda Prasad', icon: Icons.man);
+                return personNode('Rajesh Rao', icon: Icons.man);
               case 'mother':
-                return personNode('Natakam Sudharani', icon: Icons.woman);
+                return personNode('Priya Rao', icon: Icons.woman);
               case 'center':
-                return personNode('Natakam Hemanth Kumar', center: true, icon: Icons.star);
+                return personNode('Arjun Rao', center: true, icon: Icons.star);
               case 'spouse':
-                return personNode('Keerthi Doguparti', icon: Icons.favorite);
+                return personNode('Lakshmi Rao', icon: Icons.favorite);
               case 'child':
-                return personNode('Natakam Yuvan Simha', icon: Icons.child_care);
+                return personNode('Rohan Rao', icon: Icons.child_care);
               case 'sibling':
                 return personNode('Divya Bharati', icon: Icons.people);
               case 'locked':

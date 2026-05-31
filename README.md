@@ -1,51 +1,188 @@
-# Vansha Platform
+# Vansha
 
-> Build, understand, and preserve your family network across generations.
+Build, understand, and preserve human relationships across generations.
 
-## What is Vansha?
-Vansha is a modern Human Relationship Intelligence Platform.
+Vansha is a Human Relationship Intelligence Platform that helps families, communities, and future generations organize, understand, and preserve relationship networks with cultural intelligence, privacy controls, collaborative ownership, and future AI-powered relationship understanding.
 
-Beyond a family tree, Vansha understands relationships, culture, naming traditions, privacy, trust, and collaborative family intelligence.
+---
 
-## Unique Vision
-Vansha is designed to understand:
-- family relationships
-- cultural naming conventions
-- regional relationship terms
-- privacy-controlled family branches
-- collaborative family ownership
-- trust-based identity claims
-- future AI-assisted relationship intelligence
+## Why Vansha?
+
+Traditional family tree applications only store names and connections.
+
+Vansha goes beyond family trees by understanding:
+
+- Relationships
+- Cultural naming conventions
+- Family-specific relationship terms
+- Identity and ownership
+- Privacy and trust
+- Collaborative family contributions
+- Relationship intelligence
 
 Examples:
-- Achan → Father (Malayalam)
-- Nanna → Father (Telugu)
-- Appa → Father (Tamil)
-- Papa → Father (Pan-India)
 
-## Core Product Concepts
-- relationship graph instead of static tree
-- collaborative family spaces
-- trust-based identity
-- cultural flexibility
-- privacy-first visibility
-- viewer-specific relationship semantics
-- relationship linguistics intelligence
+- Achan → Father
+- Appa → Father
+- Nanna → Father
+- Papa → Father
+- Mama → Uncle
+- Babai → Paternal Uncle
+- Chettan → Elder Brother
 
-## AI Evolution Direction
-Future Vansha AI can understand:
-- what a relationship term means
-- where it is culturally used
-- whether it is family-specific or widely used
-- suggest cultural relationship terms automatically
+The platform understands both the relationship and the cultural context behind it.
 
-## Current Stack
+---
+
+## Core Vision
+
+From:
+
+Person → Relationship → Family Tree
+
+To:
+
+Person → Relationship → Family → Community → Human Network
+
+---
+
+## Key Features
+
+### Human Relationship Graph
+
+Move beyond static trees.
+
+Represent:
+
+- Parents
+- Children
+- Siblings
+- Spouses
+- Extended Family
+- Friends
+- Communities
+
+as an expandable relationship graph.
+
+### Cultural Relationship Intelligence
+
+Different families use different terms.
+
+Examples:
+
+- Mama
+- Mamaji
+- Babai
+- Mavayya
+- Chithappa
+- Periyappa
+- Machan
+- Chettan
+
+Vansha preserves these cultural identities.
+
+### Known As (Aliases)
+
+Many families know people by nicknames rather than legal names.
+
+Examples:
+
+- Prasad Mama
+- Bujji Tata
+- Kiran Anna
+- Chinna Nanna
+
+Users can maintain multiple aliases for each person.
+
+### Collaborative Family Spaces
+
+Create spaces for:
+
+- Families
+- Friends
+- Events
+- Communities
+- Legacy Archives
+
+### Identity & Trust
+
+Support:
+
+- Ownership claims
+- Family verification
+- Invite-based onboarding
+- Audit history
+
+### Privacy First
+
+Control visibility for:
+
+- Individuals
+- Family branches
+- Spaces
+- Memories
+
+### Memories & Legacy
+
+Preserve:
+
+- Photos
+- Stories
+- Documents
+- Life Events
+
+for future generations.
+
+---
+
+## Technology Stack
+
+### Frontend
 - Flutter
+
+### Backend
 - Supabase
 - PostgreSQL
 
-## Founder / Author
-Built by Hemanth Kumar
+### Architecture
+- Human Entities
+- Relationship Graph
+- Cultural Intelligence
+- Identity Claims
+- Collaborative Spaces
+- Viewer Relationship Context
+
+---
+
+## Roadmap
+
+### Phase 1
+- Human Relationship Graph
+- Family Spaces
+- Invite Flow
+- Identity Claims
+
+### Phase 2
+- Alias Search
+- Relationship Intelligence
+- Cultural Relationship Engine
+
+### Phase 3
+- AI Relationship Assistant
+- Family Memory Intelligence
+- Relationship Recommendations
+
+### Phase 4
+- Community Graphs
+- Legacy Preservation Platform
+
+---
+
+## Founder
+
+Hemanth Kumar
+
+Senior Site Reliability Engineer, DevOps Leader, AI Builder, and Creator of Vansha.
 
 LinkedIn:
 https://www.linkedin.com/in/hemanthkumarn/

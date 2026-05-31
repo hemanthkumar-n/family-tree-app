@@ -29,7 +29,7 @@ class _OnboardingV2ScreenState extends State<OnboardingV2Screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Vansha Onboarding')),
+      appBar: AppBar(title: const Text('Vamsha Onboarding')),
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(

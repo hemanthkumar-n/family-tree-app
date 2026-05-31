@@ -1,13 +1,22 @@
 import 'package:flutter/material.dart';
-import 'features/onboarding/presentation/welcome_screen.dart';
-import 'features/family/presentation/vri_demo_screen.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
-void main() {
+import 'features/family/presentation/vri_demo_screen.dart';
+// import 'features/onboarding/presentation/welcome_screen.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Supabase.initialize(
+    url: 'https://tkxjswvwssbdxtrxpvzt.supabase.co',
+    anonKey: 'sb_publishable_w2ka46iDnts0f2kLak3qEA_bpvWHP4j',
+  );
+
   runApp(const VamshaApp());
 }
 
-class VanshaApp extends StatelessWidget {
-  const VanshaApp({super.key});
+class VamshaApp extends StatelessWidget {
+  const VamshaApp({super.key});
 
   @override
   Widget build(BuildContext context) {

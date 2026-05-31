@@ -123,7 +123,7 @@ class FamilyTreeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(
-        title: const Text('Vansha Family Graph'),
+        title: const Text('Vamsha Family Graph'),
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {},

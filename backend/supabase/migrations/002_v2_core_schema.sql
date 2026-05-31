@@ -1,4 +1,4 @@
--- Vansha V2 Core Schema Foundation
+-- Vamsha V2 Core Schema Foundation
 create extension if not exists pgcrypto;
 
 create table if not exists human_entities (

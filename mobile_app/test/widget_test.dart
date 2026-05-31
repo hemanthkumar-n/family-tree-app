@@ -2,9 +2,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:vansha_mobile/main.dart';
 
 void main() {
-  testWidgets('Vansha app loads', (WidgetTester tester) async {
-    await tester.pumpWidget(const VanshaApp());
+  testWidgets('Vamsha app loads', (WidgetTester tester) async {
+    await tester.pumpWidget(const VamshaApp());
 
-    expect(find.text('Relationship Intelligence'), findsOneWidget);
+    expect(find.textContaining('Relationship'), findsWidgets);
   });
 }

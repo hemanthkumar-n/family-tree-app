@@ -1,4 +1,4 @@
--- Vansha V2 Trust / Governance Schema
+-- Vamsha V2 Trust / Governance Schema
 
 create table if not exists identity_claims (
   id uuid primary key default gen_random_uuid(),

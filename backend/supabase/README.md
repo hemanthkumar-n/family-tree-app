@@ -1,4 +1,4 @@
-# Vansha Backend Foundation
+# Vamsha Backend Foundation
 
 Supabase backend foundation.
 

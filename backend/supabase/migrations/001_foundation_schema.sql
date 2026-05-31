@@ -1,4 +1,4 @@
--- Vansha Foundation Schema
+-- Vamsha Foundation Schema
 
 create table person_profiles (
   id uuid primary key default gen_random_uuid(),

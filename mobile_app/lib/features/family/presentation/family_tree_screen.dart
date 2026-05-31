@@ -106,12 +106,14 @@ class FamilyTreeScreen extends StatelessWidget {
     final spouse = Node.Id('spouse');
     final child = Node.Id('child');
     final sibling = Node.Id('sibling');
+    final siblingSpouse = Node.Id('siblingSpouse');
 
     graph.addEdge(father, center);
     graph.addEdge(mother, center);
     graph.addEdge(center, spouse);
     graph.addEdge(center, child);
     graph.addEdge(center, sibling);
+    graph.addEdge(sibling, siblingSpouse);
 
     final builder = BuchheimWalkerConfiguration()
       ..siblingSeparation = 70
@@ -185,10 +187,18 @@ class FamilyTreeScreen extends StatelessWidget {
               case 'sibling':
                 return personNode(
                   name: 'Divya Bharathi',
-                  relationship: 'Sibling',
+                  relationship: 'Younger Sister',
                   knownAs: 'Chelli',
                   icon: Icons.people,
-                );
+                    );
+
+              case 'siblingSpouse':
+                return personNode(
+                name: 'Buduri Kamesh',
+                relationship: 'Brother In Law',
+                knownAs: 'Kamesh Bava',
+                icon: Icons.favorite,
+                    );
 
               default:
                 return const SizedBox.shrink();

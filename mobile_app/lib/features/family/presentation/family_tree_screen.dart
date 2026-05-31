@@ -186,7 +186,7 @@ class FamilyTreeScreen extends StatelessWidget {
                 return personNode(
                   name: 'Divya Bharathi',
                   relationship: 'Sibling',
-                  knownAs: 'Akka',
+                  knownAs: 'Chelli',
                   icon: Icons.people,
                 );
 

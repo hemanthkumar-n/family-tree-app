@@ -1,9 +1,9 @@
-# Vansha Identity Architecture
+# Vamsha Identity Architecture
 
 ## Core Identity Principles
 
 ### Person-first, Account-second, Space-third
-Vansha models humans independently from platform accounts.
+Vamsha models humans independently from platform accounts.
 
 A person may exist without ever signing up.
 Examples:

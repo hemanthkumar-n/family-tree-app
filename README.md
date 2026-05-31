@@ -1,16 +1,16 @@
-# Vansha
+# Vamsha
 
 Build, understand, and preserve human relationships across generations.
 
-Vansha is a Human Relationship Intelligence Platform that helps families, communities, and future generations organize, understand, and preserve relationship networks with cultural intelligence, privacy controls, collaborative ownership, and future AI-powered relationship understanding.
+Vamsha is a Human Relationship Intelligence Platform that helps families, communities, and future generations organize, understand, and preserve relationship networks with cultural intelligence, privacy controls, collaborative ownership, and future AI-powered relationship understanding.
 
 ---
 
-## Why Vansha?
+## Why Vamsha?
 
 Traditional family tree applications only store names and connections.
 
-Vansha goes beyond family trees by understanding:
+Vamsha goes beyond family trees by understanding:
 
 - Relationships
 - Cultural naming conventions
@@ -79,7 +79,7 @@ Examples:
 - Machan
 - Chettan
 
-Vansha preserves these cultural identities.
+Vamsha preserves these cultural identities.
 
 ### Known As (Aliases)
 
@@ -182,7 +182,7 @@ for future generations.
 
 Hemanth Kumar
 
-Senior Site Reliability Engineer, DevOps Leader, AI Builder, and Creator of Vansha.
+Senior Site Reliability Engineer, DevOps Leader, AI Builder, and Creator of Vamsha.
 
 LinkedIn:
 https://www.linkedin.com/in/hemanthkumarn/

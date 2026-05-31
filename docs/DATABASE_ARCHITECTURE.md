@@ -1,4 +1,4 @@
-# Vansha Database Architecture
+# Vamsha Database Architecture
 
 ## Core Tables
 ### users

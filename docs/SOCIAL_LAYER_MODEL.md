@@ -1,4 +1,4 @@
-# Vansha Social Layer Model
+# Vamsha Social Layer Model
 
 ## Principle
 Family graph and social connections are distinct.

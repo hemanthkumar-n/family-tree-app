@@ -1,4 +1,4 @@
-# Vansha MVP Scope
+# Vamsha MVP Scope
 
 ## Objective
 Deliver a privacy-aware living family relationship intelligence MVP.

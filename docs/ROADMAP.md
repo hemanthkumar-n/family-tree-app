@@ -1,4 +1,4 @@
-# Vansha Product Roadmap
+# Vamsha Product Roadmap
 
 ## Phase 1 — Relationship Intelligence MVP
 - Authentication

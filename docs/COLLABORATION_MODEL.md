@@ -1,4 +1,4 @@
-# Vansha Collaboration Model
+# Vamsha Collaboration Model
 
 ## Roles
 - Family Admin

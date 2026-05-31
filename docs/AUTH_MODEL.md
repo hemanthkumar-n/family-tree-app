@@ -1,4 +1,4 @@
-# Vansha Authentication Model
+# Vamsha Authentication Model
 
 ## Authentication Providers
 - Google

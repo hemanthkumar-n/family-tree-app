@@ -1,8 +1,8 @@
-# Vansha Relationship Intelligence (VRI) V1
+# Vamsha Relationship Intelligence (VRI) V1
 
 ## Purpose
 
-VRI enables Vansha to understand:
+VRI enables Vamsha to understand:
 
 - Who a person is
 - How they are related

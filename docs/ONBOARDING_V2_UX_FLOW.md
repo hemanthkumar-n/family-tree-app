@@ -1,4 +1,4 @@
-# Vansha Onboarding V2 UX Flow
+# Vamsha Onboarding V2 UX Flow
 
 ## Step 1: Identity
 Capture:

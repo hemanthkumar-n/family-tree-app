@@ -1,7 +1,7 @@
-# Vansha V2 Foundation Blueprint
+# Vamsha V2 Foundation Blueprint
 
 ## Vision
-Vansha is a Human Relationship Intelligence Platform.
+Vamsha is a Human Relationship Intelligence Platform.
 
 ## Core Domain Model
 

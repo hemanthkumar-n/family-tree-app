@@ -1,4 +1,4 @@
-# Vansha Magic Moment
+# Vamsha Magic Moment
 
 Person: Divya Bharathi
 

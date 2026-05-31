@@ -1,4 +1,4 @@
-# Vansha Privacy Model
+# Vamsha Privacy Model
 
 ## Principles
 - Family-governed access controls

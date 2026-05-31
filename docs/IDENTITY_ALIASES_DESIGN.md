@@ -1,4 +1,4 @@
-# Vansha Identity Aliases (Known As)
+# Vamsha Identity Aliases (Known As)
 
 ## Purpose
 Many families identify people using relationship names, nicknames, local names, or family-circle names rather than legal names.

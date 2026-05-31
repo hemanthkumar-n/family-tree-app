@@ -1,4 +1,4 @@
-# Vansha Architecture
+# Vamsha Architecture
 
 ## Foundational Principles
 - UserAccount != Person

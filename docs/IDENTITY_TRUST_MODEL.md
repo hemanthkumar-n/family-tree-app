@@ -1,4 +1,4 @@
-# Vansha Identity Trust Model
+# Vamsha Identity Trust Model
 
 ## Core Principle
 Identity is trust-based, not surname-based.

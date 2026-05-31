@@ -1,7 +1,7 @@
-# Vansha Graph Visibility Model
+# Vamsha Graph Visibility Model
 
 ## Product Principle
-Vansha is an interactive living family graph, not a static family tree.
+Vamsha is an interactive living family graph, not a static family tree.
 
 Graph exploration must balance discovery, privacy, performance, and viral growth.
 

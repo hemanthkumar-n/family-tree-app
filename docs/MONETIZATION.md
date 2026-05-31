@@ -1,4 +1,4 @@
-# Vansha Monetization
+# Vamsha Monetization
 
 ## Potential Revenue Streams
 - Premium family subscriptions

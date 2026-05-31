@@ -1,4 +1,4 @@
-# Vansha Graph Traversal Model
+# Vamsha Graph Traversal Model
 
 ## Principle
 Relationship graph traversal is permission-aware.

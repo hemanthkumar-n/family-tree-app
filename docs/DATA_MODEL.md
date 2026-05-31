@@ -1,4 +1,4 @@
-# Vansha Data Model
+# Vamsha Data Model
 
 ## Core Entities
 

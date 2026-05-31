@@ -1,9 +1,9 @@
-# Vansha Space Model
+# Vamsha Space Model
 
 ## Principle
-Vansha does not use tree-per-user architecture.
+Vamsha does not use tree-per-user architecture.
 
-Vansha uses collaborative FamilySpaces.
+Vamsha uses collaborative FamilySpaces.
 
 ## Space Types
 - Clan Space

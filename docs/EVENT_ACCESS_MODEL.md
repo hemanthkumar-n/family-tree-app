@@ -1,4 +1,4 @@
-# Vansha Event Access Model
+# Vamsha Event Access Model
 
 ## Principle
 Events may include family and non-family participants.

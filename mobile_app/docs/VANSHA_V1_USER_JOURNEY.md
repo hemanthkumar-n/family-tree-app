@@ -1,11 +1,11 @@
 
-# Vansha V1 User Journey
+# Vamsha V1 User Journey
 
 ## User Types
 
 ### 1. Stranger User
 
-Downloads Vansha from App Store.
+Downloads Vamsha from App Store.
 
 No invite.
 

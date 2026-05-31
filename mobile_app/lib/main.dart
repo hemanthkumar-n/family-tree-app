@@ -3,7 +3,7 @@ import 'features/onboarding/presentation/welcome_screen.dart';
 import 'features/family/presentation/vri_demo_screen.dart';
 
 void main() {
-  runApp(const VanshaApp());
+  runApp(const VamshaApp());
 }
 
 class VanshaApp extends StatelessWidget {
@@ -12,7 +12,7 @@ class VanshaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Vansha',
+      title: 'Vamsha',
       debugShowCheckedModeBanner: false,
       home: const VRIDemoScreen(),
     );
